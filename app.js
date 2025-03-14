@@ -13,7 +13,7 @@ app.use('/api/reports', reportRoutes);
 // 错误处理
 app.use(errorHandler);
 
-console.log(process.env.DB_PASSWORD)
+//console.log(process.env.DB_PASSWORD)
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     logger.info(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);

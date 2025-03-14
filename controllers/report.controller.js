@@ -23,7 +23,7 @@ const getAllReports = async (req, res) => {
     try {
 
         const reports = await reportService.getAllReportsService();
-        logger.error(reports);
+        logger.info(reports);
         res.json(reports);
     } catch (error) {
         logger.error(error);
