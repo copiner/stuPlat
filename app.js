@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const reportRoutes = require('./routes/report.routes');
+const userRoutes = require('./routes/user.routes');
 const errorHandler = require('./middlewares/error.middleware');
 const logger = require('./config/logger');
 
@@ -9,7 +10,8 @@ app.use(express.json());
 //app.use(express.urlencoded({ extended: true }));
 
 // 路由
-app.use('/api/reports', reportRoutes);
+app.use('/lesson/reports', reportRoutes);
+app.use('/lesson/users', userRoutes);
 // 错误处理
 app.use(errorHandler);
 

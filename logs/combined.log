@@ -24,3 +24,40 @@
   }
 ]
 2025-03-14 17:11:51 info: Server running in development mode on port 3000
+2025-03-14 22:20:05 info: Server running in development mode on port 3000
+2025-03-14 22:41:23 info: Server running in development mode on port 3000
+2025-03-14 22:41:58 info: [
+  {
+    "id": 1,
+    "name": "Report 1",
+    "date": "2023-01-01"
+  },
+  {
+    "id": 2,
+    "name": "Report 2",
+    "date": "2023-01-02"
+  }
+]
+2025-03-15 10:18:31 info: Server running in development mode on port 3000
+2025-03-15 10:19:12 info: [
+  {
+    "name": "王若晴",
+    "seatNumber": "A1",
+    "status": 0
+  },
+  {
+    "name": "王若安",
+    "seatNumber": "B1",
+    "status": 0
+  },
+  {
+    "name": "肖辰昊",
+    "seatNumber": "C1",
+    "status": 0
+  },
+  {
+    "name": "肖辰宇",
+    "seatNumber": "D1",
+    "status": 0
+  }
+]
