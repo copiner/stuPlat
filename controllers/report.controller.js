@@ -10,8 +10,20 @@ const logger = require('../config/logger');
 const createReport = async (req, res) => {
     try {
         const newReport = req.body;
-        const id = await reportService.createReportService(newReport);
-        res.status(201).json({ id, ...newReport });
+        const row = await reportService.createReportService(newReport);
+
+        if(row){
+            res.status(200).json({
+                status: 'success',
+                message:'Report Create successfully',
+            });
+        } else {
+            res.status(500).json({
+                status: 'fail',
+                message:'Report Create failed'
+            });
+        }
+
     } catch (error) {
         logger.error(error);
         res.status(500).json({ error: 'Internal Server Error' });
@@ -23,8 +35,10 @@ const getAllReports = async (req, res) => {
     try {
 
         const reports = await reportService.getAllReportsService();
-        logger.info(reports);
-        res.json(reports);
+        res.status(200).json({
+            status: 'success',
+            data:reports
+        });
     } catch (error) {
         logger.error(error);
         res.status(500).json({ error: 'Internal Server Error' });

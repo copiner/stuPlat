@@ -6,7 +6,13 @@ const reportModel = require('../models/report.model.js');
 const logger = require('../config/logger');
 // 创建报表数据
 const createReportService = async (reportData) => {
-    return await reportModel.createReport(reportData);
+    const id = reportData.id;
+    const result = await reportModel.countReport(id);
+    if (result.seatCount > 0) {
+        return await reportModel.updateReport(id, reportData);
+    } else {
+        return await reportModel.createReport(reportData);
+    }
 };
 
 // 获取所有报表数据

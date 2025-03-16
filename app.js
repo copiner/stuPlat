@@ -7,7 +7,7 @@ const logger = require('./config/logger');
 
 const app = express();
 app.use(express.json());
-//app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true }));
 
 // 路由
 app.use('/lesson/reports', reportRoutes);

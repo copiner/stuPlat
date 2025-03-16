@@ -1,13 +1,18 @@
-CREATE TABLE report (
-                        id INT PRIMARY KEY AUTO_INCREMENT,
-                        title VARCHAR(255) NOT NULL,
-                        content TEXT NOT NULL,
-                        category ENUM('sales', 'technical', 'financial') NOT NULL DEFAULT 'sales',
-                        submitter VARCHAR(100) NOT NULL,
-                        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+create table report
+(
+    seatNumber varchar(10)  not null
+        primary key,
+    useCase    varchar(10)  not null,
+    sensor     varchar(10)  not null,
+    env1       varchar(255) null,
+    val1       varchar(255) null,
+    env2       varchar(255) null,
+    val2       varchar(255) null,
+    env3       varchar(255) null,
+    val3       varchar(255) null,
+    env4       varchar(255) null,
+    val4       varchar(255) null
 );
 
--- 创建索引
-CREATE INDEX idx_category ON report(category);
-CREATE INDEX idx_created_at ON report(created_at);
+
+TRUNCATE TABLE report;

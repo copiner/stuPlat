@@ -61,3 +61,531 @@
     "status": 0
   }
 ]
+2025-03-15 10:45:40 info: Server running in development mode on port 3000
+2025-03-15 10:47:27 info: Server running in development mode on port 3000
+2025-03-15 10:47:53 info: Server running in development mode on port 3000
+2025-03-15 13:07:17 info: Server running in development mode on port 3000
+2025-03-15 13:07:42 info: {}
+2025-03-15 13:10:11 info: Server running in development mode on port 3000
+2025-03-15 13:10:19 info: {}
+2025-03-15 13:37:34 info: {}
+2025-03-15 13:57:59 info: {}
+2025-03-15 14:09:18 info: Server running in development mode on port 3000
+2025-03-15 14:10:38 info: Server running in development mode on port 3000
+2025-03-15 14:10:58 info: Server running in development mode on port 3000
+2025-03-15 14:12:22 info: Server running in development mode on port 3000
+2025-03-15 14:12:51 info: Server running in development mode on port 3000
+2025-03-15 14:35:11 info: Server running in development mode on port 3000
+2025-03-15 14:37:56 info: Server running in development mode on port 3000
+2025-03-15 14:42:17 info: Server running in development mode on port 3000
+2025-03-15 14:43:51 info: getAllUsers
+2025-03-15 14:45:13 info: Server running in development mode on port 3000
+2025-03-15 14:45:18 info: getAllUsers
+2025-03-15 14:47:40 info: getAllUsers
+2025-03-15 14:48:42 info: getAllUsers
+2025-03-15 14:49:10 info: {
+  "seatnumber": "A1",
+  "name": "哈哈"
+}
+2025-03-15 14:59:56 info: Server running in development mode on port 3000
+2025-03-15 15:09:41 info: Server running in development mode on port 3000
+2025-03-15 15:12:14 info: Server running in development mode on port 3000
+2025-03-15 15:12:57 info: Server running in development mode on port 3000
+2025-03-15 15:13:09 info: Server running in development mode on port 3000
+2025-03-15 15:13:21 info: {
+  "seatnumber": "TT",
+  "name": "哈哈"
+}
+2025-03-15 15:13:21 error: Table 'stu.report' doesn't exist
+2025-03-15 15:14:06 info: Server running in development mode on port 3000
+2025-03-15 15:16:12 info: Server running in development mode on port 3000
+2025-03-15 15:16:42 info: Server running in development mode on port 3000
+2025-03-15 15:16:48 info: {
+  "seatnumber": "TT",
+  "name": "哈哈"
+}
+2025-03-15 15:16:48 error: Table 'stu.report' doesn't exist
+2025-03-15 15:17:39 info: Server running in development mode on port 3000
+2025-03-15 15:17:40 info: {
+  "seatnumber": "TT",
+  "name": "哈哈"
+}
+2025-03-15 15:17:40 error: Unknown column 'id' in 'where clause'
+2025-03-15 15:18:04 info: Server running in development mode on port 3000
+2025-03-15 15:18:06 info: {
+  "seatnumber": "TT",
+  "name": "哈哈"
+}
+2025-03-15 15:18:06 error: User not found
+2025-03-15 15:19:03 info: Server running in development mode on port 3000
+2025-03-15 15:19:07 info: {
+  "seatnumber": "TT",
+  "name": "哈哈"
+}
+2025-03-15 15:19:07 error: User not found
+2025-03-15 15:19:20 info: Server running in development mode on port 3000
+2025-03-15 15:19:35 info: {
+  "seatnumber": "TT",
+  "name": "哈哈"
+}
+2025-03-15 15:19:35 error: User not found
+2025-03-15 15:20:25 info: Server running in development mode on port 3000
+2025-03-15 15:20:51 info: {
+  "seatnumber": "TT",
+  "name": "哈哈"
+}
+2025-03-15 15:20:51 error: User not found
+2025-03-15 15:23:21 info: Server running in development mode on port 3000
+2025-03-15 15:24:14 info: {
+  "seatnumber": "TT",
+  "name": "哈哈"
+}
+2025-03-15 15:24:15 error: User not found
+2025-03-15 15:25:25 info: {
+  "seatnumber": "TT",
+  "name": "哈哈"
+}
+2025-03-15 15:25:25 error: User not found
+2025-03-15 15:27:25 info: {
+  "seatnumber": "TT",
+  "name": "哈哈"
+}
+2025-03-15 15:27:25 error: User not found
+2025-03-15 15:28:06 info: {
+  "seatnumber": "TT",
+  "name": "哈哈"
+}
+2025-03-15 15:28:06 error: User not found
+2025-03-15 15:28:19 info: {
+  "seatnumber": "A1",
+  "name": "哈哈"
+}
+2025-03-15 15:28:19 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-15 15:28:20 info: {
+  "seatnumber": "A1",
+  "name": "哈哈"
+}
+2025-03-15 15:28:20 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-15 15:30:13 info: Server running in development mode on port 3000
+2025-03-15 15:30:23 info: {
+  "seatnumber": "A1",
+  "name": "哈哈"
+}
+2025-03-15 15:30:23 info: {
+  "name": "王若晴",
+  "seatNumber": "A1",
+  "status": 0
+}
+2025-03-15 15:30:23 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-15 15:31:13 info: Server running in development mode on port 3000
+2025-03-15 15:32:40 info: Server running in development mode on port 3000
+2025-03-15 15:32:44 info: {
+  "seatnumber": "A1",
+  "name": "哈哈"
+}
+2025-03-15 15:32:44 info: {
+  "name": "王若晴",
+  "seatNumber": "A1",
+  "status": 0
+}
+2025-03-15 15:32:50 info: getAllUsers
+2025-03-15 15:33:09 info: Server running in development mode on port 3000
+2025-03-15 15:35:36 info: Server running in development mode on port 3000
+2025-03-15 15:35:44 info: Server running in development mode on port 3000
+2025-03-15 15:36:07 info: {
+  "name": "哈哈",
+  "seatNumber": "A1",
+  "status": 1
+}
+2025-03-15 16:04:09 info: Server running in development mode on port 3000
+2025-03-15 16:05:35 info: Server running in development mode on port 3000
+2025-03-15 16:07:48 info: Server running in development mode on port 3000
+2025-03-15 16:09:10 info: Server running in development mode on port 3000
+2025-03-15 16:09:29 info: Server running in development mode on port 3000
+2025-03-15 16:10:16 info: Server running in development mode on port 3000
+2025-03-15 16:13:06 info: Server running in development mode on port 3000
+2025-03-15 16:14:46 info: Server running in development mode on port 3000
+2025-03-15 16:20:11 info: Server running in development mode on port 3000
+2025-03-15 16:21:12 info: Server running in development mode on port 3000
+2025-03-15 17:09:24 info: Server running in development mode on port 3000
+2025-03-15 17:17:32 info: getAllUsers
+2025-03-15 17:19:49 info: getAllUsers
+2025-03-15 17:20:05 info: getAllUsers
+2025-03-15 17:20:22 info: getAllUsers
+2025-03-15 17:20:26 info: getAllUsers
+2025-03-15 17:20:34 info: getAllUsers
+2025-03-15 17:22:39 info: getAllUsers
+2025-03-15 17:23:32 info: getAllUsers
+2025-03-15 17:24:04 info: getAllUsers
+2025-03-15 17:24:22 info: getAllUsers
+2025-03-15 17:26:04 info: getAllUsers
+2025-03-15 17:41:17 info: getAllUsers
+2025-03-15 17:41:51 info: getAllUsers
+2025-03-15 17:44:15 info: getAllUsers
+2025-03-15 17:44:35 info: getAllUsers
+2025-03-15 17:45:13 info: getAllUsers
+2025-03-15 17:48:08 info: getAllUsers
+2025-03-15 17:49:49 info: getAllUsers
+2025-03-15 17:50:16 info: getAllUsers
+2025-03-15 17:50:23 info: getAllUsers
+2025-03-15 17:50:24 info: getAllUsers
+2025-03-15 17:50:50 info: getAllUsers
+2025-03-15 17:51:06 info: getAllUsers
+2025-03-15 17:51:20 info: getAllUsers
+2025-03-15 17:51:21 info: getAllUsers
+2025-03-15 17:51:30 info: getAllUsers
+2025-03-15 17:51:35 info: getAllUsers
+2025-03-15 17:51:54 info: getAllUsers
+2025-03-15 17:56:04 info: getAllUsers
+2025-03-15 17:57:32 info: getAllUsers
+2025-03-15 17:57:33 info: getAllUsers
+2025-03-15 17:57:50 info: getAllUsers
+2025-03-15 17:57:51 info: getAllUsers
+2025-03-15 17:58:06 info: getAllUsers
+2025-03-15 17:59:43 info: getAllUsers
+2025-03-15 18:00:00 info: getAllUsers
+2025-03-15 20:20:14 info: getAllUsers
+2025-03-15 20:20:15 info: getAllUsers
+2025-03-15 20:21:26 info: getAllUsers
+2025-03-15 20:22:28 info: getAllUsers
+2025-03-15 20:28:53 info: Server running in development mode on port 3000
+2025-03-15 20:28:53 info: getAllUsers
+2025-03-15 20:28:54 info: getAllUsers
+2025-03-15 20:29:47 info: getAllUsers
+2025-03-15 20:30:33 info: getAllUsers
+2025-03-15 20:30:49 info: getAllUsers
+2025-03-15 20:30:52 info: getAllUsers
+2025-03-15 20:31:51 info: getAllUsers
+2025-03-15 20:33:26 info: getAllUsers
+2025-03-15 20:35:08 info: getAllUsers
+2025-03-15 20:38:44 info: getAllUsers
+2025-03-15 20:42:21 info: getAllUsers
+2025-03-15 20:42:23 info: getAllUsers
+2025-03-15 20:42:23 info: getAllUsers
+2025-03-15 20:42:49 info: getAllUsers
+2025-03-15 20:43:38 info: getAllUsers
+2025-03-15 20:43:40 info: getAllUsers
+2025-03-15 20:46:48 info: getAllUsers
+2025-03-15 20:49:46 info: getAllUsers
+2025-03-15 20:49:49 info: getAllUsers
+2025-03-15 20:51:05 info: getAllUsers
+2025-03-15 20:52:13 info: getAllUsers
+2025-03-15 20:52:16 info: getAllUsers
+2025-03-15 20:52:17 info: getAllUsers
+2025-03-15 20:53:12 info: getAllUsers
+2025-03-15 20:53:28 info: getAllUsers
+2025-03-15 20:53:53 info: getAllUsers
+2025-03-15 20:54:04 info: getAllUsers
+2025-03-15 20:54:05 info: getAllUsers
+2025-03-15 20:54:37 info: getAllUsers
+2025-03-15 20:54:39 info: getAllUsers
+2025-03-15 20:54:56 info: getAllUsers
+2025-03-15 20:55:12 info: getAllUsers
+2025-03-15 20:55:13 info: getAllUsers
+2025-03-15 20:55:59 info: getAllUsers
+2025-03-15 20:56:49 info: getAllUsers
+2025-03-15 20:57:53 error: User not found
+2025-03-15 21:02:57 info: Server running in development mode on port 3000
+2025-03-15 21:02:59 info: getAllUsers
+2025-03-15 21:03:00 error: Column 'name' cannot be null
+2025-03-15 21:04:53 info: Server running in development mode on port 3000
+2025-03-15 21:04:58 info: getAllUsers
+2025-03-15 21:05:01 info: getAllUsers
+2025-03-15 21:06:30 info: getAllUsers
+2025-03-15 21:06:33 info: getAllUsers
+2025-03-15 21:08:56 info: getAllUsers
+2025-03-15 21:09:52 info: getAllUsers
+2025-03-15 21:09:55 info: getAllUsers
+2025-03-15 21:10:38 info: getAllUsers
+2025-03-15 21:10:40 info: getAllUsers
+2025-03-15 21:12:00 info: getAllUsers
+2025-03-15 21:12:03 info: getAllUsers
+2025-03-15 21:12:18 info: getAllUsers
+2025-03-15 21:12:20 info: getAllUsers
+2025-03-15 21:12:34 info: getAllUsers
+2025-03-15 21:13:03 info: getAllUsers
+2025-03-15 22:03:06 info: Server running in development mode on port 3000
+2025-03-15 22:03:48 info: []
+2025-03-16 09:36:16 info: Server running in development mode on port 3000
+2025-03-16 09:36:37 info: {
+  "useCase": "02",
+  "sensor": "02",
+  "env1": "昏暗",
+  "val1": "234",
+  "env2": "",
+  "val2": "",
+  "env3": "",
+  "val3": "",
+  "env4": "",
+  "val4": ""
+}
+2025-03-16 09:37:18 info: Server running in development mode on port 3000
+2025-03-16 09:38:50 info: Server running in development mode on port 3000
+2025-03-16 09:42:17 info: Server running in development mode on port 3000
+2025-03-16 09:42:35 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 09:44:36 info: Server running in development mode on port 3000
+2025-03-16 09:44:55 info: undefined
+2025-03-16 09:44:55 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 09:45:41 info: Server running in development mode on port 3000
+2025-03-16 09:45:52 info: {
+  "id": "T1",
+  "useCase": "02",
+  "sensor": "01",
+  "env1": "昏暗",
+  "val1": "234",
+  "env2": "",
+  "val2": "",
+  "env3": "",
+  "val3": "",
+  "env4": "",
+  "val4": ""
+}
+2025-03-16 09:45:52 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 09:46:49 info: Server running in development mode on port 3000
+2025-03-16 09:46:53 info: {
+  "id": "T1",
+  "useCase": "02",
+  "sensor": "01",
+  "env1": "昏暗",
+  "val1": "234",
+  "env2": "",
+  "val2": "",
+  "env3": "",
+  "val3": "",
+  "env4": "",
+  "val4": ""
+}
+2025-03-16 09:46:53 error: Column 'useCase' specified twice
+2025-03-16 09:47:12 info: Server running in development mode on port 3000
+2025-03-16 09:47:42 info: {
+  "id": "T1",
+  "useCase": "02",
+  "sensor": "01",
+  "env1": "昏暗",
+  "val1": "234",
+  "env2": "明亮",
+  "val2": "6787",
+  "env3": "地方",
+  "val3": "0",
+  "env4": "",
+  "val4": ""
+}
+2025-03-16 09:47:42 error: Column count doesn't match value count at row 1
+2025-03-16 09:48:24 info: Server running in development mode on port 3000
+2025-03-16 09:48:26 info: {
+  "id": "T1",
+  "useCase": "02",
+  "sensor": "01",
+  "env1": "昏暗",
+  "val1": "234",
+  "env2": "明亮",
+  "val2": "6787",
+  "env3": "地方",
+  "val3": "0",
+  "env4": "",
+  "val4": ""
+}
+2025-03-16 09:49:09 info: Server running in development mode on port 3000
+2025-03-16 11:30:43 info: getAllUsers
+2025-03-16 11:30:45 info: getAllUsers
+2025-03-16 11:34:56 info: [
+  {
+    "seatNumber": "T1",
+    "useCase": "02",
+    "sensor": "01",
+    "env1": "昏暗",
+    "val1": "234",
+    "env2": "明亮",
+    "val2": "6787",
+    "env3": "地方",
+    "val3": "0",
+    "env4": "",
+    "val4": ""
+  }
+]
+2025-03-16 11:35:12 info: [
+  {
+    "seatNumber": "T1",
+    "useCase": "02",
+    "sensor": "01",
+    "env1": "昏暗",
+    "val1": "234",
+    "env2": "明亮",
+    "val2": "6787",
+    "env3": "地方",
+    "val3": "0",
+    "env4": "",
+    "val4": ""
+  }
+]
+2025-03-16 11:36:14 info: Server running in development mode on port 3000
+2025-03-16 13:10:27 info: {
+  "id": "A1",
+  "useCase": "02",
+  "sensor": "01",
+  "env1": "操场",
+  "val1": "12",
+  "env2": "菜地",
+  "val2": "59",
+  "env3": "",
+  "val3": "",
+  "env4": "",
+  "val4": ""
+}
+2025-03-16 13:12:25 info: Server running in development mode on port 3000
+2025-03-16 13:13:24 info: Server running in development mode on port 3000
+2025-03-16 13:13:26 info: 1
+2025-03-16 13:14:49 info: Server running in development mode on port 3000
+2025-03-16 13:14:51 info: {
+  "seatNumber": "A1",
+  "useCase": "02",
+  "sensor": "01",
+  "env1": "操场",
+  "val1": "12",
+  "env2": "菜地",
+  "val2": "59",
+  "env3": "",
+  "val3": "",
+  "env4": "",
+  "val4": ""
+}
+2025-03-16 13:14:51 info: 1
+2025-03-16 13:15:39 info: undefined
+2025-03-16 13:15:39 info: 0
+2025-03-16 13:19:36 info: undefined
+2025-03-16 13:19:36 info: 0
+2025-03-16 13:21:03 info: Server running in development mode on port 3000
+2025-03-16 13:21:27 info: {
+  "seatNumber": "C1",
+  "useCase": "03",
+  "sensor": "03",
+  "env1": "",
+  "val1": "234",
+  "env2": "明亮",
+  "val2": "999",
+  "env3": "",
+  "val3": "",
+  "env4": "",
+  "val4": ""
+}
+2025-03-16 13:24:51 info: undefined
+2025-03-16 13:29:17 info: Server running in development mode on port 3000
+2025-03-16 13:29:40 info: Server running in development mode on port 3000
+2025-03-16 13:29:51 info: Server running in development mode on port 3000
+2025-03-16 13:30:00 info: [
+  {
+    "count(*)": 1
+  }
+]
+2025-03-16 13:31:47 info: Server running in development mode on port 3000
+2025-03-16 13:31:48 info: [
+  {
+    "count(*)": 1
+  }
+]
+2025-03-16 13:34:44 info: Server running in development mode on port 3000
+2025-03-16 13:34:55 info: {
+  "seatNumber": "C1",
+  "useCase": "03",
+  "sensor": "03",
+  "env1": "昏暗",
+  "val1": "234",
+  "env2": "明亮",
+  "val2": "999",
+  "env3": "",
+  "val3": "",
+  "env4": "",
+  "val4": ""
+}
+2025-03-16 13:35:54 info: Server running in development mode on port 3000
+2025-03-16 13:36:34 info: Server running in development mode on port 3000
+2025-03-16 13:36:40 info: {
+  "count(*)": 1
+}
+2025-03-16 13:37:15 info: Server running in development mode on port 3000
+2025-03-16 13:37:17 info: {
+  "seatCount": 1
+}
+2025-03-16 13:38:11 info: Server running in development mode on port 3000
+2025-03-16 13:38:12 info: 1
+2025-03-16 13:38:12 error: report is not defined
+2025-03-16 13:39:19 info: Server running in development mode on port 3000
+2025-03-16 13:39:19 info: 0
+2025-03-16 13:39:43 info: Server running in development mode on port 3000
+2025-03-16 13:40:59 info: Server running in development mode on port 3000
+2025-03-16 13:43:13 info: Server running in development mode on port 3000
+2025-03-16 13:43:14 info: 0
+2025-03-16 13:44:48 info: Server running in development mode on port 3000
+2025-03-16 13:45:06 info: {
+  "fieldCount": 0,
+  "affectedRows": 1,
+  "insertId": 0,
+  "info": "",
+  "serverStatus": 2,
+  "warningStatus": 0,
+  "changedRows": 0
+}
+2025-03-16 13:45:06 info: 0
+2025-03-16 13:46:20 info: Server running in development mode on port 3000
+2025-03-16 13:46:21 info: 1
+2025-03-16 13:46:54 info: 1
+2025-03-16 13:47:38 info: Server running in development mode on port 3000
+2025-03-16 14:13:13 error: User not found
+2025-03-16 14:34:54 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 14:34:55 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 14:35:53 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 14:36:27 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 14:36:28 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 14:37:12 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 14:37:14 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 14:43:25 info: Server running in development mode on port 3000
+2025-03-16 15:19:53 info: getAllUsers
+2025-03-16 15:19:54 info: getAllUsers
+2025-03-16 15:22:44 info: getAllUsers
+2025-03-16 15:23:10 info: getAllUsers
+2025-03-16 15:23:24 info: getAllUsers
+2025-03-16 15:23:57 info: getAllUsers
+2025-03-16 15:24:23 info: getAllUsers
+2025-03-16 15:24:40 info: getAllUsers
+2025-03-16 15:27:07 info: getAllUsers
+2025-03-16 15:27:08 info: getAllUsers
+2025-03-16 15:28:12 info: getAllUsers
+2025-03-16 15:29:02 info: getAllUsers
+2025-03-16 15:29:05 info: getAllUsers
+2025-03-16 15:29:07 info: getAllUsers
+2025-03-16 15:29:11 info: getAllUsers
+2025-03-16 15:29:12 info: getAllUsers
+2025-03-16 15:30:22 info: getAllUsers
+2025-03-16 15:30:25 info: getAllUsers
+2025-03-16 15:30:26 info: getAllUsers
+2025-03-16 15:30:27 info: getAllUsers
+2025-03-16 15:30:27 info: getAllUsers
+2025-03-16 15:30:29 info: getAllUsers
+2025-03-16 15:30:29 info: getAllUsers
+2025-03-16 15:30:30 info: getAllUsers
+2025-03-16 15:30:30 info: getAllUsers
+2025-03-16 15:30:31 info: getAllUsers
+2025-03-16 15:30:31 info: getAllUsers
+2025-03-16 15:30:32 info: getAllUsers
+2025-03-16 15:31:43 info: getAllUsers
+2025-03-16 15:31:43 info: getAllUsers
+2025-03-16 15:32:39 info: getAllUsers
+2025-03-16 15:33:08 info: getAllUsers
+2025-03-16 15:33:10 info: getAllUsers
+2025-03-16 15:33:51 info: getAllUsers
+2025-03-16 15:33:54 info: getAllUsers
+2025-03-16 15:33:56 info: getAllUsers
+2025-03-16 15:41:28 info: getAllUsers
+2025-03-16 15:41:30 info: getAllUsers
+2025-03-16 15:45:06 info: getAllUsers
+2025-03-16 15:45:24 info: getAllUsers
+2025-03-16 15:46:36 info: getAllUsers
+2025-03-16 15:47:33 info: getAllUsers
+2025-03-16 15:48:05 info: getAllUsers
+2025-03-16 15:59:48 info: getAllUsers
+2025-03-16 16:00:30 error: User not found
+2025-03-16 16:00:49 info: getAllUsers
+2025-03-16 16:00:50 info: getAllUsers
+2025-03-16 16:01:49 info: getAllUsers
+2025-03-16 16:02:00 info: getAllUsers
+2025-03-16 16:02:02 info: getAllUsers

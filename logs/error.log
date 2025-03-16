@@ -1,0 +1,31 @@
+2025-03-15 15:13:21 error: Table 'stu.report' doesn't exist
+2025-03-15 15:16:48 error: Table 'stu.report' doesn't exist
+2025-03-15 15:17:40 error: Unknown column 'id' in 'where clause'
+2025-03-15 15:18:06 error: User not found
+2025-03-15 15:19:07 error: User not found
+2025-03-15 15:19:35 error: User not found
+2025-03-15 15:20:51 error: User not found
+2025-03-15 15:24:15 error: User not found
+2025-03-15 15:25:25 error: User not found
+2025-03-15 15:27:25 error: User not found
+2025-03-15 15:28:06 error: User not found
+2025-03-15 15:28:19 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-15 15:28:20 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-15 15:30:23 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-15 20:57:53 error: User not found
+2025-03-15 21:03:00 error: Column 'name' cannot be null
+2025-03-16 09:42:35 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 09:44:55 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 09:45:52 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 09:46:53 error: Column 'useCase' specified twice
+2025-03-16 09:47:42 error: Column count doesn't match value count at row 1
+2025-03-16 13:38:12 error: report is not defined
+2025-03-16 14:13:13 error: User not found
+2025-03-16 14:34:54 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 14:34:55 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 14:35:53 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 14:36:27 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 14:36:28 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 14:37:12 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 14:37:14 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-16 16:00:30 error: User not found

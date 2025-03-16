@@ -10,26 +10,70 @@ const logger = require('../config/logger');
 // 获取所有报表数据
 const getAllUsers = async (req, res) => {
     try {
-
+        logger.info("getAllUsers");
         const users = await userService.getAllUsersService();
-        logger.info(users);
-        res.json(users);
+        res.status(200).json({
+            status: 'success',
+            data:users
+        });
     } catch (error) {
         logger.error(error);
         res.status(500).json({ error: 'Internal Server Error' });
     }
 };
 
-// 更新报表数据
+// 登陆更新用户数据
 const updateUser = async (req, res) => {
     try {
-        const id = req.params.id;
-        const updatedReport = req.body;
-        const affectedRows = await userService.updateUserService(id, updatedReport);
+        const userData = req.body;
+        const id = userData.seatnumber;
+        const affectedRows = await userService.updateUserService(id, userData);
         if (affectedRows > 0) {
-            res.json({ message: 'Report updated successfully' });
+            res.status(200).json({
+                status: 'success',
+                message:'User updated successfully',
+                data:{
+                    key:id,
+                    name:userData.name
+                }
+            });
         } else {
-            res.status(404).json({ error: 'Report not found' });
+            res.status(500).json({
+                status: 'fail',
+                message:'User updated failed'
+            });
+        }
+    } catch (error) {
+        logger.error(error);
+        res.status(500).json({
+            status: 'fail',
+            message:error.message
+        });
+    }
+};
+
+// 根据 ID 获取单个报表数据
+/*
+ res.status(200).json({
+  status: 'success',
+  ...result
+});
+*/
+const getUserById = async (req, res) => {
+    try {
+        const id = req.params.id;
+        const user = await userService.getUserByIdService(id);
+        if (user) {
+            res.status(200).json({
+                status: 'success',
+                message:'User updated successfully',
+                data:user
+            });
+        } else {
+            res.status(500).json({
+                status: 'fail',
+                message:'User updated failed'
+            });
         }
     } catch (error) {
         logger.error(error);
@@ -37,8 +81,23 @@ const updateUser = async (req, res) => {
     }
 };
 
+//重置用户登录状态
+const resetAllUsersStatus = async (req, res) => {
+    try {
+        const affectedRows = await userService.resetAllUsersStatusService();
+        res.status(200).json({
+            status: 'success',
+            message:'User reset successfully'
+        });
+    } catch (error) {
+        logger.error(error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+};
 
 module.exports = {
     getAllUsers,
-    updateUser
+    updateUser,
+    getUserById,
+    resetAllUsersStatus
 };
