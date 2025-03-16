@@ -589,3 +589,9 @@
 2025-03-16 16:01:49 info: getAllUsers
 2025-03-16 16:02:00 info: getAllUsers
 2025-03-16 16:02:02 info: getAllUsers
+2025-03-16 16:03:01 info: getAllUsers
+2025-03-16 21:12:51 info: Server running in development mode on port 3000
+2025-03-16 21:15:03 info: getAllUsers
+2025-03-16 21:16:07 info: getAllUsers
+2025-03-16 21:16:14 error: result is not defined
+2025-03-16 21:17:41 info: Server running in development mode on port 3000

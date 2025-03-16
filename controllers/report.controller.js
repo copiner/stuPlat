@@ -112,11 +112,35 @@ const getReportsByQuery = async (req, res) => {
     }
 };
 
+// 创建报表数据
+const resetReport = async (req, res) => {
+    try {
+        const row = await reportService.resetReportService();
+        if(row > 0){
+            res.status(200).json({
+                status: 'success',
+                message:'Report Reset successfully',
+            });
+        } else {
+            res.status(500).json({
+                status: 'fail',
+                message:'Report Reset failed'
+            });
+        }
+
+    } catch (error) {
+        logger.error(error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+};
+
+
 module.exports = {
     createReport,
     getAllReports,
     getReportById,
     updateReport,
     deleteReport,
-    getReportsByQuery
+    getReportsByQuery,
+    resetReport
 };

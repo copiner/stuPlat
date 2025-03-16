@@ -10,7 +10,6 @@ const logger = require('../config/logger');
 // 获取所有报表数据
 const getAllUsers = async (req, res) => {
     try {
-        logger.info("getAllUsers");
         const users = await userService.getAllUsersService();
         res.status(200).json({
             status: 'success',

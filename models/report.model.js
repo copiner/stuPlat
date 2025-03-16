@@ -61,6 +61,13 @@ const countReport = async (id) => {
     return rows[0];
 };
 
+//TRUNCATE TABLE report;
+
+const resetReport = async () => {
+    const [result] = await pool.execute('TRUNCATE TABLE report');
+    return result.affectedRows;
+};
+
 module.exports = {
     createReport,
     getAllReports,
@@ -68,5 +75,6 @@ module.exports = {
     updateReport,
     deleteReport,
     getReportsByQuery,
-    countReport
+    countReport,
+    resetReport
 };

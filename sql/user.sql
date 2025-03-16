@@ -19,5 +19,5 @@ INSERT INTO user (seatNumber, name, status) VALUES
 ('E1', '', 0), ('E2', '', 0), ('E3', '', 0), ('E4', '', 0), ('E5', '', 0), ('E6', '', 0), ('E7', '', 0), ('E8', '', 0),
 ('F1', '', 0), ('F2', '', 0), ('F3', '', 0), ('F4', '', 0), ('F5', '', 0), ('F6', '', 0), ('F7', '', 0), ('F8', '', 0);
 
-
+INSERT INTO user (seatNumber, name, status) VALUES ('T1', '', 0);
 TRUNCATE TABLE user;

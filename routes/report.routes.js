@@ -15,6 +15,9 @@ router.delete('/:id', reportController.deleteReport);
 // 根据查询条件获取报表数据
 router.get('/query', reportController.getReportsByQuery);
 
+
+router.post('/init', reportController.resetReport);
+
 module.exports = router;
 
 

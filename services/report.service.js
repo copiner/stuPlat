@@ -45,11 +45,17 @@ const getReportsByQueryService = async (query) => {
 
 };
 
+// 删除报表数据
+const resetReportService = async () => {
+    return await reportModel.resetReport();
+};
+
 module.exports = {
     createReportService,
     getAllReportsService,
     getReportByIdService,
     updateReportService,
     deleteReportService,
-    getReportsByQueryService
+    getReportsByQueryService,
+    resetReportService
 };
