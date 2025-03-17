@@ -9,6 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use(express.static('public'));
 // 路由
 app.use('/lesson/reports', reportRoutes);
 app.use('/lesson/users', userRoutes);

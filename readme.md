@@ -22,11 +22,21 @@ pm2 start app.js --name "report-system"
 pm2 save
 pm2 startup
 
+或者
+
+nohup npm start > app.log 2>&1 &
+
+```
+### 运维
+```
+ps -ef | grep 'npm start'
+
+
 ```
 
 ### nginx
 
-```aidl
+```
 server {
     listen 80;
     server_name yourdomain.com;
