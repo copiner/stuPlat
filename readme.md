@@ -24,13 +24,28 @@ pm2 startup
 
 或者
 
+
+启动之前
+ps -ef | grep 'npm start'
+netstat -anp tcp | grep 3000
+
+上述如果 有3000端口使用中，则
+kill -9 pid(进程号)
+然后
+到 stuPlat目录下，进入命令行，启动命令
 nohup npm start > app.log 2>&1 &
+
+
 
 ```
 ### 运维
 ```
 ps -ef | grep 'npm start'
 
+netstat -anp tcp | grep 3000
+
+
+pm2 start npm --name "stuPlat" -- start
 
 ```
 
