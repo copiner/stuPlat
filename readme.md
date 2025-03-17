@@ -26,7 +26,7 @@ pm2 startup
 
 
 登陆服务器
-ssh -p 22 龚老师@10.4.209.150
+ssh -p 22 root@10.10.10.10 
 
 cd 到 stuPlat目录下
 
