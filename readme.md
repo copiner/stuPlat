@@ -25,14 +25,20 @@ pm2 startup
 或者
 
 
+登陆服务器
+ssh -p 22 龚老师@10.4.209.150
+
+cd 到 stuPlat目录下
+
 启动之前
 ps -ef | grep 'npm start'
 netstat -anp tcp | grep 3000
 
-上述如果 有3000端口使用中，则
+上述两步，如果任意一步有3000端口使用中的情况，则杀死服务进程 命令如下
 kill -9 pid(进程号)
-然后
-到 stuPlat目录下，进入命令行，启动命令
+
+然后，启动命令
+
 nohup npm start > app.log 2>&1 &
 
 
