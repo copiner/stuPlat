@@ -51,8 +51,6 @@ ps -ef | grep 'npm start'
 netstat -anp tcp | grep 3000
 
 
-pm2 start npm --name "stuPlat" -- start
-
 ```
 
 ### nginx
