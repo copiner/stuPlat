@@ -1,6 +1,7 @@
 const pool = require('../config/db.config.js');
 const logger = require('../config/logger');
 
+//env1 环境的测量值 val1  环境1的电压值 后面以此类推
 // 创建报表数据
 const createReport = async (reportData) => {
 
