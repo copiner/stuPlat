@@ -616,3 +616,13 @@
 2025-03-17 20:08:10 info: Server running in production mode on port 3000
 2025-03-17 20:08:22 info: Server running in development mode on port 3000
 2025-03-17 20:46:30 info: Server running in development mode on port 3000
+2025-03-18 20:46:00 info: Server running in development mode on port 3000
+2025-04-06 20:29:39 info: Server running in production mode on port 3000
+2025-04-06 20:29:59 error: Unknown database 'report_system'
+2025-04-06 20:30:53 info: Server running in development mode on port 3000
+2025-04-06 21:02:36 info: Server running in development mode on port 3000
+2025-04-06 21:21:07 info: Server running in development mode on port 3000
+2025-04-06 21:21:52 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-06 21:21:54 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-06 21:22:24 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-06 21:22:59 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null

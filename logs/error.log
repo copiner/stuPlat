@@ -30,3 +30,8 @@
 2025-03-16 14:37:14 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
 2025-03-16 16:00:30 error: User not found
 2025-03-16 21:16:14 error: result is not defined
+2025-04-06 20:29:59 error: Unknown database 'report_system'
+2025-04-06 21:21:52 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-06 21:21:54 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-06 21:22:24 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-06 21:22:59 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null

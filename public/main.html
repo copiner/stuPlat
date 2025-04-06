@@ -175,19 +175,19 @@
             <div class="title">你想实现的功能：</div>
             <div>
                 <label class="radio-container">智能浇水
-                    <input type="radio" class="j_useCase" name="useCase" value="01">
+                    <input type="radio" class="j_preference" name="preference" value="01">
                     <span class="checkmark"></span>
                 </label>
                 <label class="radio-container">智能光照
-                    <input type="radio" class="j_useCase" name="useCase" value="02">
+                    <input type="radio" class="j_preference" name="preference" value="02">
                     <span class="checkmark"></span>
                 </label>
                 <label class="radio-container">噪声检测
-                    <input type="radio" class="j_useCase" name="useCase" value="03">
+                    <input type="radio" class="j_preference" name="preference" value="03">
                     <span class="checkmark"></span>
                 </label>
                 <label class="radio-container">智能温控
-                    <input type="radio" class="j_useCase" name="useCase" value="04">
+                    <input type="radio" class="j_preference" name="preference" value="04">
                     <span class="checkmark"></span>
                 </label>
             </div>
@@ -268,12 +268,12 @@ const Main = {
         $(".j_submit").on('click',function(){
 
 
-            let useCase = $('.j_useCase:checked').val();
+            let preference = $('.j_preference:checked').val();
             let sensor = $('.j_sensor:checked').val();
 
             let params = {
                 id:sessionStorage.getItem("key"),
-                useCase,
+                preference,
                 sensor,
             };
             $('.j_item').each(function(){
