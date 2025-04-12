@@ -19,3 +19,5 @@ create table report
 
 
 TRUNCATE TABLE report;
+
+DROP TABLE  report;
