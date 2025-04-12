@@ -698,3 +698,19 @@
   "val3": "93"
 }
 2025-04-12 15:37:36 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-12 15:41:46 info: {
+  "id": "C3",
+  "sensor": "03",
+  "env1": "安静",
+  "vol1": "56",
+  "val1": "90",
+  "env2": "小声讲话",
+  "vol2": "56",
+  "val2": "100",
+  "env3": "大声讲话",
+  "vol3": "79",
+  "val3": "0"
+}
+2025-04-12 15:41:46 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-12 15:48:58 info: Server running in development mode on port 3000
+2025-04-12 15:51:09 info: Server running in development mode on port 3000

@@ -5,10 +5,9 @@ const logger = require('../config/logger');
 // 创建报表数据
 const createReport = async (reportData) => {
     logger.info(reportData)
-    const [result] = await pool.execute('INSERT INTO report (seatNumber,preference,sensor,env1,vol1, val1,env2,vol2,val2,env3,vol3,val3) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
+    const [result] = await pool.execute('INSERT INTO report (seatNumber,sensor,env1,vol1, val1,env2,vol2,val2,env3,vol3,val3) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
         [
             reportData.id,
-            reportData.preference,
             reportData.sensor,
             reportData.env1,reportData.vol1,reportData.val1,
             reportData.env2,reportData.vol2,reportData.val2,
@@ -31,8 +30,7 @@ const getReportById = async (id) => {
 
 // 更新报表数据
 const updateReport = async (id, reportData) => {
-    const [result] = await pool.execute('UPDATE report SET preference = ?, sensor = ?, env1 = ?,vol1 = ?, val1 = ?, env2 = ?,vol2 = ?, val2 = ?, env3 = ?,vol3 = ?, val3 = ? WHERE seatNumber = ?', [
-        reportData.preference,
+    const [result] = await pool.execute('UPDATE report SET sensor = ?, env1 = ?,vol1 = ?, val1 = ?, env2 = ?,vol2 = ?, val2 = ?, env3 = ?,vol3 = ?, val3 = ? WHERE seatNumber = ?', [
         reportData.sensor,
         reportData.env1,reportData.vol1,reportData.val1,
         reportData.env2,reportData.vol2,reportData.val2,

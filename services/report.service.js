@@ -42,7 +42,6 @@ const getReportsByQueryService = async (query) => {
     } catch (err) {
         throw new AppError('Database operation failed', 500);
     }
-
 };
 
 // 删除报表数据

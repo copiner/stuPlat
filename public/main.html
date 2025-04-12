@@ -163,36 +163,15 @@
 <body>
 
 <div class="main-container">
-    <div class="link-area"><span class="btn j_know">认识传感器</span><span class="btn selected">探究传感器</span></div>
+    <div class="link-area  btn selected">探秘传感器</div>
 
     <div class="user-container">
         <span class="j_name"></span>
     </div>
     <div class="container">
-        <div class="case-container">
-            <div class="title">你想实现的功能：</div>
-            <div>
-                <label class="radio-container">智能浇水
-                    <input type="radio" class="j_preference" name="j_preference" value="01">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="radio-container">智能光照
-                    <input type="radio" class="j_preference" name="j_preference" value="02">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="radio-container">噪声检测
-                    <input type="radio" class="j_preference" name="j_preference" value="03">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="radio-container">智能温控
-                    <input type="radio" class="j_preference" name="j_preference" value="04">
-                    <span class="checkmark"></span>
-                </label>
-            </div>
-        </div>
 
         <div class="sensor-container">
-            <div class="title">你想探究的传感器：</div>
+            <div class="title">小组探究的传感器：</div>
             <div>
                 <label class="radio-container">土壤湿度传感器
                     <input type="radio" class="j_sensor"  name="sensor" value="01">
@@ -249,12 +228,12 @@
 
 const Main = {
     initData:function(){
-        // let key = sessionStorage.getItem("key");
-        // if(!key){
-        //     location.href = "./login.html";
-        // }
-        // let name = sessionStorage.getItem("name");
-        // $(".j_name").text(key + '-' + name);
+        let key = sessionStorage.getItem("key");
+        if(!key){
+            location.href = "./login.html";
+        }
+        let name = sessionStorage.getItem("name");
+        $(".j_name").text(key + '-' + name);
 
     },
     initEvent:function(){
@@ -292,12 +271,10 @@ const Main = {
 
         $(".j_submit").on('click',function(){
 
-            let preference = $('.j_preference:checked').val();
             let sensor = $('.j_sensor:checked').val();
 
             let params = {
                 id:sessionStorage.getItem("key"),
-                preference,
                 sensor,
             };
             $('.j_item').each(function(){
