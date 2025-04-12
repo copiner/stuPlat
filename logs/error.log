@@ -35,3 +35,15 @@
 2025-04-06 21:21:54 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
 2025-04-06 21:22:24 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
 2025-04-06 21:22:59 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-12 14:41:03 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-12 14:41:15 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-12 14:51:30 error: Column count doesn't match value count at row 1
+2025-04-12 15:10:37 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-12 15:10:38 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-12 15:10:50 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-12 15:11:47 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-12 15:12:13 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-12 15:12:57 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-12 15:14:04 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-12 15:14:08 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-04-12 15:37:36 error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null

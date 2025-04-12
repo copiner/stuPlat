@@ -2,7 +2,7 @@ create table report
 (
     seatNumber varchar(10)  not null
         primary key,
-    preference    varchar(10)  not null,
+    preference    varchar(10) null,
     sensor     varchar(10)  not null,
     env1       varchar(64) null,
     val1       varchar(64) null,
@@ -12,10 +12,7 @@ create table report
     vol2       varchar(64) null,
     env3       varchar(64) null,
     val3       varchar(64) null,
-    vol3       varchar(64) null,
-    env4       varchar(64) null,
-    val4       varchar(64) null,
-    vol4       varchar(64) null
+    vol3       varchar(64) null
 );
 
 

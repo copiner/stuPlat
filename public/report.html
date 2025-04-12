@@ -47,26 +47,28 @@
             border-radius: 12px;
             margin: 20px auto;
             padding: 12px;
+            min-height: 90vh;
         }
         .case-container{
             display: flex;
             justify-content: space-between;
-            min-height: 100vh;
+            margin-top: 32px;
         }
         .title{
-            margin: 16px 0;
+            margin: 20px 0;
             text-align: center;
             font-weight: bold;
         }
 
         .case-item{
-            width: 25%;
-            border: 1px solid lightgray;
+            width: 45%;
+            margin: 0 auto ;
         }
 
         .sensor-table {
           border-collapse: collapse;
           width: 100%;
+          font-size: 14px;
         }
 
         .sensor-table th,
@@ -82,7 +84,7 @@
         }
         .sensor-table tr th:nth-child(4),
         .sensor-table tr td:nth-child(4){
-            border-right: 1px solid #ccc;
+            border-right: 1px solid #000000;
         }
     </style>
 </head>
@@ -104,77 +106,149 @@
 <!--    <div>-->
 <!--        <span class="j_name"></span>-->
 <!--    </div>-->
-    <div class="case-container">
-        <div class="case-item">
-            <div class="title">土壤湿度传感器</div>
-            <table class="sensor-table">
-                <thead>
-                <tr>
-                    <th></th>
-                    <th colspan="3">电压表</th>
-                    <th colspan="3">实验板</th>
-                </tr>
-                <tr>
-                    <th></th>
-                    <th>黑暗</th>
-                    <th>亮</th>
-                    <th>较亮</th>
-                    <th>黑暗</th>
-                    <th>亮</th>
-                    <th>较亮</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>A3</td>
-                    <td>12</td>
-                    <td>15</td>
-                    <td>17</td>
-                    <td>222</td>
-                    <td>333</td>
-                    <td>444</td>
-                </tr>
-                <tr>
-                    <td>A5</td>
-                    <td>11</td>
-                    <td>12</td>
-                    <td>13</td>
-                    <td>222-790</td>
-                    <td>333</td>
-                    <td>444</td>
-                </tr>
-                <tr>
-                    <td>A1</td>
-                    <td>12</td>
-                    <td>14</td>
-                    <td>16</td>
-                    <td>132</td>
-                    <td>222</td>
-                    <td>333</td>
-                </tr>
+        <div class="case-container">
+            <div class="case-item">
+                <div class="title">土壤湿度传感器</div>
+                <table class="sensor-table">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th colspan="3" style="border-right: 1px solid #000000;">电压表</th>
+                        <th colspan="3">实验板</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>干燥</th>
+                        <th>一点水</th>
+                        <th>多点水</th>
+                        <th>干燥</th>
+                        <th>一点水</th>
+                        <th>多点水</th>
+                    </tr>
+                    </thead>
+                    <tbody class="j_item01">
+                    <!--                <tr>-->
+                    <!--                    <td>A3</td>-->
+                    <!--                    <td>12</td>-->
+                    <!--                    <td>15</td>-->
+                    <!--                    <td>17</td>-->
+                    <!--                    <td>222</td>-->
+                    <!--                    <td>333</td>-->
+                    <!--                    <td>444</td>-->
+                    <!--                </tr>-->
 
 
-                </tbody>
-            </table>
+
+                    </tbody>
+                </table>
 
 
+            </div>
+            <div class="case-item">
+                <div class="title">光敏传感器</div>
+                <table class="sensor-table">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th colspan="3" style="border-right: 1px solid #000000;">电压表</th>
+                        <th colspan="3">实验板</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>黑暗</th>
+                        <th>亮</th>
+                        <th>较亮</th>
+                        <th>黑暗</th>
+                        <th>亮</th>
+                        <th>较亮</th>
+                    </tr>
+                    </thead>
+                    <tbody class="j_item02">
+                    <!--                <tr>-->
+                    <!--                    <td>A3</td>-->
+                    <!--                    <td>12</td>-->
+                    <!--                    <td>15</td>-->
+                    <!--                    <td>17</td>-->
+                    <!--                    <td>222</td>-->
+                    <!--                    <td>333</td>-->
+                    <!--                    <td>444</td>-->
+                    <!--                </tr>-->
+
+
+
+                    </tbody>
+                </table>
+
+
+            </div>
         </div>
 
-        <div class="case-item">
-            <div class="title">光敏传感器</div>
-            <div class="j_item02"></div>
+        <div class="case-container">
+            <div class="case-item">
+                <div class="title">声音传感器</div>
+                <table class="sensor-table">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th colspan="3" style="border-right: 1px solid #000000;">电压表</th>
+                        <th colspan="3">实验板</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>安静</th>
+                        <th>小声讲话</th>
+                        <th>大声讲话</th>
+                        <th>安静</th>
+                        <th>小声讲话</th>
+                        <th>大声讲话</th>
+                    </tr>
+                    </thead>
+                    <tbody class="j_item03">
+                    <!--                <tr>-->
+                    <!--                    <td>A3</td>-->
+                    <!--                    <td>12</td>-->
+                    <!--                    <td>15</td>-->
+                    <!--                    <td>17</td>-->
+                    <!--                    <td>222</td>-->
+                    <!--                    <td>333</td>-->
+                    <!--                    <td>444</td>-->
+                    <!--                </tr>-->
+
+
+
+                    </tbody>
+                </table>
+
+
+            </div>
+            <div class="case-item">
+                <div class="title">温湿度传感器</div>
+                <table class="sensor-table">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th colspan="3" style="border-right: 1px solid #000000;">电压表</th>
+                        <th colspan="3">实验板</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>降温</th>
+                        <th>常温</th>
+                        <th>加热</th>
+                        <th>降温</th>
+                        <th>常温</th>
+                        <th>加热</th>
+                    </tr>
+                    </thead>
+                    <tbody class="j_item04">
+
+                    </tbody>
+                </table>
+
+
+            </div>
         </div>
 
-        <div class="case-item">
-            <div class="title">声音传感器</div>
-            <div class="j_item03"></div>
-        </div>
-        <div class="case-item">
-            <!--04-->
-            <div class="title">温湿度传感器</div>
-            <div class="j_item04"></div>
-        </div>
-    </div>
 </div>
 
 <script>
@@ -228,26 +302,36 @@ const Report = {
         });
     },
     recordViews:function(data){
-        let html01 = '';
-        let html02 = '';
-        let html03 = '';
-        let html04 = '';
+
 
         data.forEach(function(item){
+            let _html = '';
+            _html = _html + '<tr>';
+            _html = _html +'<td>' + item.seatNumber +'</td>' +'<td>' + item.vol1 +'</td>' +'<td>' + item.vol2 +'</td>'  +'<td>' + item.vol3 +'</td>'
+            _html = _html +'<td>' + item.val1 +'</td>' +'<td>' + item.val2 +'</td>'  +'<td>' + item.val3 +'</td>'
+            _html = _html + '</tr>'
 
             if(item.sensor == "01"){
-                html01 = html01 + '<tr>';
-                html01 = html01 +'<td>' + item.seatNumber +'</td>' +'<td>' + item.vol1 +'</td>' +'<td>' + item.vol2 +'</td>'  +'<td>' + item.vol3 +'</td>'
-                html01 = html01 +'<td>' + item.val1 +'</td>' +'<td>' + item.val2 +'</td>'  +'<td>' + item.val3 +'</td>'
-                html01 = html01 + '</tr>'
+                $(".j_item01").html(_html);
+            }
+
+            if(item.sensor == "02"){
+                $(".j_item02").html(_html);
+            }
+
+            if(item.sensor == "03"){
+                $(".j_item03").html(_html);
+            }
+
+            if(item.sensor == "04"){
+                $(".j_item04").html(_html);
             }
 
         })
 
-        //$(".j_item01").html(html01);
-        $(".j_item02").html(html02);
-        $(".j_item03").html(html03);
-        $(".j_item04").html(html04);
+
+
+
     },
 
     resetReport:function (){

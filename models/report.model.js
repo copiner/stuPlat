@@ -4,16 +4,15 @@ const logger = require('../config/logger');
 //env1 环境  val1 实验板测量值 vol1环境1的电压值 以此类推
 // 创建报表数据
 const createReport = async (reportData) => {
-
-    const [result] = await pool.execute('INSERT INTO report (seatNumber,preference,sensor,env1,vol1, val1,env2,vol2,val2,env3,vol3,val3,env4,vol4,val4) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
+    logger.info(reportData)
+    const [result] = await pool.execute('INSERT INTO report (seatNumber,preference,sensor,env1,vol1, val1,env2,vol2,val2,env3,vol3,val3) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
         [
             reportData.id,
             reportData.preference,
             reportData.sensor,
             reportData.env1,reportData.vol1,reportData.val1,
             reportData.env2,reportData.vol2,reportData.val2,
-            reportData.env3,reportData.vol3,reportData.val3,
-            reportData.env4,reportData.vol4,reportData.val4
+            reportData.env3,reportData.vol3,reportData.val3
         ]);
     return result.affectedRows;
 };
@@ -32,13 +31,12 @@ const getReportById = async (id) => {
 
 // 更新报表数据
 const updateReport = async (id, reportData) => {
-    const [result] = await pool.execute('UPDATE report SET preference = ?, sensor = ?, env1 = ?,vol1 = ?, val1 = ?, env2 = ?,vol2 = ?, val2 = ?, env3 = ?,vol3 = ?, val3 = ?, env4 = ?, vol4 = ?,val4 = ? WHERE seatNumber = ?', [
+    const [result] = await pool.execute('UPDATE report SET preference = ?, sensor = ?, env1 = ?,vol1 = ?, val1 = ?, env2 = ?,vol2 = ?, val2 = ?, env3 = ?,vol3 = ?, val3 = ? WHERE seatNumber = ?', [
         reportData.preference,
         reportData.sensor,
         reportData.env1,reportData.vol1,reportData.val1,
         reportData.env2,reportData.vol2,reportData.val2,
         reportData.env3,reportData.vol3,reportData.val3,
-        reportData.env4,reportData.vol4,reportData.val4,
         id]);
     return result.affectedRows;
 };
