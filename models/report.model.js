@@ -1,5 +1,5 @@
 const pool = require('../config/db.config.js');
-const logger = require('../config/logger');
+//const logger = require('../config/logger');
 
 //env1 环境  val1 实验板测量值 vol1环境1的电压值 以此类推
 // 创建报表数据
