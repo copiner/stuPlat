@@ -258,6 +258,7 @@ const Report = {
         let key = sessionStorage.getItem("key");
         if(!key){
             location.href = "./login.html";
+            return;
         }
         Report.initRecord()
     },
