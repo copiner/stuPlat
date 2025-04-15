@@ -298,8 +298,10 @@ const Report = {
         });
     },
     recordViews:function(data){
-
-
+        $(".j_item01").empty();
+        $(".j_item02").empty();
+        $(".j_item03").empty();
+        $(".j_item04").empty();
         data.forEach(function(item){
             let _html = '';
             _html = _html + '<tr>';
@@ -339,6 +341,7 @@ const Report = {
             success: function (response) {
                 if (response.status === 'success') {
                     $('#message').text('重置成功！');
+                    Report.initRecord();
                 } else {
                     $('#message').text('重置失败！');
                 }
