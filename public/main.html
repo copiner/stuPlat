@@ -246,26 +246,26 @@ const Main = {
             let sensor = $('.j_sensor:checked').val();
             if(sensor == "01"){//土壤湿度传感器
                 $(".j_env1").val("干燥")
-                $(".j_env2").val("一点水")
-                $(".j_env3").val("多点水")
+                $(".j_env2").val("微润")
+                $(".j_env3").val("湿润")
             }
 
             if(sensor == "02"){//光敏传感器
                 $(".j_env1").val("黑暗")
-                $(".j_env2").val("亮")
-                $(".j_env3").val("较亮")
+                $(".j_env2").val("中等光照")
+                $(".j_env3").val("强光")
             }
 
             if(sensor == "03"){//声音传感器
                 $(".j_env1").val("安静")
-                $(".j_env2").val("小声讲话")
-                $(".j_env3").val("大声讲话")
+                $(".j_env2").val("适中")
+                $(".j_env3").val("响亮")
             }
 
             if(sensor == "04"){//温湿度传感器
                 $(".j_env1").val("降温")
                 $(".j_env2").val("常温")
-                $(".j_env3").val("加热")
+                $(".j_env3").val("升温")
             }
         })
 
