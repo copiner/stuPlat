@@ -171,7 +171,6 @@ const Users = {
         })
         $(".j_refresh").on('click',function(){
             Users.initData();
-
         })
 
         $(".j_detail").on('click',function(){
@@ -240,6 +239,7 @@ const Users = {
             success: function (response) {
                 if (response.status === 'success') {
                     $('#message').text('重置成功！');
+                    Users.initData();
                 } else {
                     $('#message').text('重置失败！');
                 }
